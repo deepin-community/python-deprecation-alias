@@ -1,5 +1,35 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-deprecation-alias (0.3.2-3) unstable; urgency=medium
 
-  * Initial release
+  * debian/control:
+     - Added dependencies for running tests
+     - Enabled test execution
+  * debian/control: Added Testsuite: autopkgtest-pkg-pybuild
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Mon, 01 Jan 2024 13:46:48 -0300
+
+python-deprecation-alias (0.3.2-2) unstable; urgency=medium
+
+  * Source-only upload to allow testing migration
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 02 Aug 2023 06:17:23 -0300
+
+python-deprecation-alias (0.3.2-1) unstable; urgency=medium
+
+  * New upstream version 0.3.2
+  * debian/control: - Bumped Standards-Version 4.6.2
+  * debian/copyright: updated year to 2023
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 05 Jul 2023 16:15:15 -0300
+
+python-deprecation-alias (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only reupload.
+
+ -- Bastian Germann <bage@debian.org>  Sun, 22 Jan 2023 22:59:42 +0100
+
+python-deprecation-alias (0.3.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1026835)
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 24 Dec 2022 11:18:26 -0300
